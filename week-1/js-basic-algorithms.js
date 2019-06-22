@@ -57,3 +57,15 @@ if (hacker1 < hacker2) {
 } else {
   "Hacker 2 first"
 }
+
+// lexicographical order as a loop
+// note it does not concern itself with the case that both names are the same ;-)
+for (let i = 0; i < hacker1.length; i++) {
+  if (hacker1[i] < hacker2[i]) {
+    console.log("driver first")
+    break
+  } else {
+    console.log("navigator first")
+    break
+  }
+}

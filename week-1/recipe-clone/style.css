@@ -1,0 +1,33 @@
+body {
+  width: 800px;
+  margin: 10px auto; /* centers in the middle */
+  font-family: Helvetica;  
+}
+
+header {
+  background-image: url('../images/cooking-info.png');
+  background-size: 100%;  
+  height: 200px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+section {
+  padding: 20px 50px;
+  line-height: 25px;
+  font-size: 20px;    
+}
+
+.img {
+  text-align: center;
+}
+
+.divider {
+  border-top: 1px solid black;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
